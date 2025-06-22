@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="hi"> <!-- Default language -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="page_title">PragatiGPT - आपकी सरकारी योजनाएँ खोजें</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <svg id="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <title data-translate-key="logo_alt_text">PragatiGPT लोगो</title>
+                    <circle cx="50" cy="50" r="45" stroke="#138808" stroke-width="10" fill="white" />
+                    <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'Poppins', sans-serif" font-size="35" font-weight="bold" fill="#FF9933">PG</text>
+                </svg>
+                <h1 data-translate-key="app_name">PragatiGPT</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero" data-translate-key="nav_home">मुख्य पृष्ठ</a></li>
+                    <li><a href="#about" data-translate-key="nav_about">हमारे बारे में</a></li>
+                    <li><a href="#how-it-works" data-translate-key="nav_how_it_works">यह कैसे काम करता है?</a></li>
+                    <li><a href="#scheme-finder" data-translate-key="nav_scheme_finder">योजना खोजें</a></li>
+                    <li><a href="#testimonials" data-translate-key="nav_testimonials">प्रशंसापत्र</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <i class="fas fa-language lang-icon"></i>
+                <select id="languageSwitcher">
+                    <option value="hi">हिन्दी</option>
+                    <option value="en">English</option>
+                    <option value="bn">বাংলা (Bengali)</option>
+                    <option value="ta">தமிழ் (Tamil)</option>
+                    <option value="te">తెలుగు (Telugu)</option>
+                    <option value="mr">मराठी (Marathi)</option>
+                    <option value="gu">ગુજરાતી (Gujarati)</option>
+                    <option value="kn">ಕನ್ನಡ (Kannada)</option>
+                    <option value="ml">മലയാളം (Malayalam)</option>
+                </select>
+            </div>        
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h2 data-translate-key="hero_title">भारत के कल्याणकारी भविष्य की ओर एक कदम</h2>
+                <p data-translate-key="hero_subtitle">PragatiGPT के साथ अपनी पात्र सरकारी योजनाओं को आसानी से खोजें। आपकी आवश्यकताओं के अनुरूप, सही जानकारी, सही समय पर।</p>
+                <a href="#scheme-finder" class="cta-button" data-translate-key="hero_cta_button">अभी योजनाएँ खोजें</a>
+            </div>
+            <div class="hero-icon-container">
+                <i class="fas fa-hands-helping hero-main-icon"></i>
+            </div>
+        </section>
+
+        <section id="stats" class="content-section alt-bg">
+            <div class="container">
+                <h2 data-translate-key="stats_title">कुछ महत्वपूर्ण आँकड़े (उदाहरण)</h2>
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <i class="fas fa-users stat-icon"></i>
+                        <h3><span class="count-up" data-count="10000">0</span>+</h3>
+                        <p data-translate-key="stats_users_helped">संतुष्ट उपयोगकर्ता</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-file-alt stat-icon"></i>
+                        <h3><span class="count-up" data-count="500">0</span>+</h3>
+                        <p data-translate-key="stats_schemes_listed"> सूचीबद्ध योजनाएँ (AI द्वारा)</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-search-dollar stat-icon"></i>
+                        <h3><span class="count-up" data-count="95">0</span>%</h3>
+                        <p data-translate-key="stats_accuracy_rate">अनुमानित सटीकता दर</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2 data-translate-key="about_title">हमारे बारे में</h2>
+                <p data-translate-key="about_p1">PragatiGPT एक अभिनव पहल है जिसका उद्देश्य भारतीय नागरिकों को उनके लिए उपलब्ध विभिन्न सरकारी कल्याणकारी योजनाओं के बारे में जानकारी प्रदान करना है। उन्नत AI तकनीक का उपयोग करते हुए, हम आपकी प्रोफ़ाइल के आधार पर सबसे उपयुक्त योजनाओं को खोजने में आपकी सहायता करते हैं। हमारा लक्ष्य सूचना तक पहुँच को सरल बनाना और यह सुनिश्चित करना है कि प्रत्येक पात्र नागरिक सरकारी लाभों का उपयोग कर सके।</p>
+                <div class="info-cards">
+                    <div class="info-card">
+                        <i class="fas fa-bullseye icon"></i>
+                        <h3 data-translate-key="about_card1_title">सटीक मिलान</h3>
+                        <p data-translate-key="about_card1_desc">आपकी व्यक्तिगत जानकारी के आधार पर योजनाओं का सटीक मिलान।</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-hand-holding-heart icon"></i>
+                        <h3 data-translate-key="about_card2_title">सरल पहुँच</h3>
+                        <p data-translate-key="about_card2_desc">जटिल सरकारी पोर्टलों के बजाय एक सरल और सुलभ मंच।</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-shield-alt icon"></i>
+                        <h3 data-translate-key="about_card3_title">AI संचालित जानकारी</h3>
+                        <p data-translate-key="about_card3_desc">नवीनतम और AI द्वारा उत्पन्न योजना सुझाव (सत्यापन आवश्यक)।</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="content-section alt-bg">
+            <div class="container">
+                <h2 data-translate-key="howitworks_title">यह कैसे काम करता है?</h2>
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <i class="fas fa-keyboard icon-large"></i>
+                        <h3 data-translate-key="howitworks_step1_title">जानकारी दर्ज करें</h3>
+                        <p data-translate-key="howitworks_step1_desc">अपना नाम, आयु, लिंग और व्यवसाय जैसे सरल विवरण प्रदान करें।</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <i class="fas fa-cogs icon-large"></i>
+                        <h3 data-translate-key="howitworks_step2_title">AI विश्लेषण</h3>
+                        <p data-translate-key="howitworks_step2_desc">हमारा AI आपकी प्रोफ़ाइल का विश्लेषण करेगा और पात्र योजनाओं को ढूंढेगा।</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <i class="fas fa-list-check icon-large"></i>
+                        <h3 data-translate-key="howitworks_step3_title">परिणाम देखें</h3>
+                        <p data-translate-key="howitworks_step3_desc">आपके लिए सबसे उपयुक्त सरकारी योजनाओं की एक सूची प्राप्त करें।</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="scheme-finder" class="content-section">
+            <div class="container form-container">
+                <h2 data-translate-key="scheme_finder_title">अपनी पात्र सरकारी योजनाएँ खोजें</h2>
+                <form id="userInfoForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name" data-translate-key="form_name_label">आपका नाम:</label>
+                            <input type="text" id="name" name="name" required data-translate-placeholder="form_name_placeholder" placeholder="उदा. रमेश कुमार">
+                        </div>
+                        <div class="form-group">
+                            <label for="age" data-translate-key="form_age_label">आयु (वर्षों में):</label>
+                            <input type="number" id="age" name="age" min="1" max="120" required data-translate-placeholder="form_age_placeholder" placeholder="उदा. 35">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender" data-translate-key="form_gender_label">लिंग:</label>
+                            <select id="gender" name="gender" required>
+                                <option value="" data-translate-key="form_gender_select">चुनें...</option>
+                                <option value="पुरुष" data-translate-key="form_gender_male">पुरुष</option>
+                                <option value="महिला" data-translate-key="form_gender_female">महिला</option>
+                                <option value="अन्य" data-translate-key="form_gender_other">अन्य</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="occupation" data-translate-key="form_occupation_label">व्यवसाय:</label>
+                            <select id="occupation" name="occupation" required>
+                                <option value="" data-translate-key="form_occupation_select">चुनें...</option>
+                                <option value="विद्यार्थी" data-translate-key="form_occupation_student">विद्यार्थी</option>
+                                <option value="किसान" data-translate-key="form_occupation_farmer">किसान</option>
+                                <option value="श्रमिक" data-translate-key="form_occupation_worker">श्रमिक</option>
+                                <option value="गृहिणी" data-translate-key="form_occupation_homemaker">गृहिणी</option>
+                                <option value="उद्यमी" data-translate-key="form_occupation_entrepreneur">उद्यमी</option>
+                                <option value="अन्य" data-translate-key="form_occupation_other_option">अन्य</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" id="submitBtn" class="cta-button large" data-translate-key="form_submit_button">मेरी योजनाएँ देखें</button>
+                </form>
+
+                <div id="loader" class="loader" style="display: none;"></div>
+
+                <div id="schemesOutput" class="output-container" style="display: none;">
+                    <pre id="apiResponse"></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="content-section alt-bg">
+            <div class="container">
+                <h2 data-translate-key="testimonials_title">लाभार्थियों की कहानियाँ (उदाहरण)</h2>
+                <div class="testimonial-cards">
+                    <div class="testimonial-card">
+                        <i class="fas fa-user-circle testimonial-icon"></i>
+                        <p data-translate-key="testimonial1_text">"PragatiGPT ने मुझे PM-KISAN योजना के बारे में जानने में मदद की, जिससे मुझे बहुत लाभ हुआ। धन्यवाद!"</p>
+                        <h4 data-translate-key="testimonial1_author">- एक किसान, राजस्थान</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <i class="fas fa-user-circle testimonial-icon"></i>
+                        <p data-translate-key="testimonial2_text">"एक छोटे उद्यमी के रूप में, मुझे मुद्रा योजना के बारे में यहाँ से जानकारी मिली। यह बहुत मददगार था।"</p>
+                        <h4 data-translate-key="testimonial2_author">- एक उद्यमी, महाराष्ट्र</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <i class="fas fa-user-circle testimonial-icon"></i>
+                        <p data-translate-key="testimonial3_text">"मुझे अपनी बेटी के लिए सुकन्या समृद्धि योजना की जानकारी मिली। यह मंच बहुत उपयोगी है।"</p>
+                        <h4 data-translate-key="testimonial3_author">- एक अभिभावक, उत्तर प्रदेश</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="developer-info" class="content-section alt-bg">
+    <div class="container">
+        <h2 data-translate-key="developer_title">Meet the Developers</h2>
+
+        <div class="developer-row">
+            <!-- Developer 1 -->
+            <div class="developer-card">
+                <img src="assets/Abhishek SIngh Shekhawat Profile Picture.png" alt="Developer Avatar" class="developer-avatar">
+                <div class="developer-details">
+                    <h3>ABHISHEK SINGH SHEKHAWAT</h3>
+                    <p>Web developer focused on merging design, usability, and AI to create accessible public-facing tools like PragatiGPT.</p>
+                    <a href="https://www.abhisheksinghshekhawat.com" class="developer-link-button" target="_blank">
+                        <i class="fas fa-globe"></i> View Portfolio
+                    </a>
+                    <div class="developer-social-links">
+                        <a href="https://github.com/AbhishekSinghShekhawatSDE" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abhisheksinghshekhawat/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Developer 2 -->
+            <div class="developer-card reverse">
+                <img src="assets/picofme.png" alt="Developer Avatar" class="developer-avatar">
+                <div class="developer-details">
+                    <h3>HEMANG KHATRI</h3>
+                    <p>Web developer focused on merging design, usability, and AI to create accessible public-facing tools like PragatiGPT.</p>
+                    <a href="#" class="developer-link-button" target="_blank">
+                        <i class="fas fa-globe"></i> View Portfolio
+                    </a>
+                    <div class="developer-social-links">
+                        <a href="https://github.com/hemang-kh" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hemang-khatri-846b14325/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="footer-content">
+            <p id="copyright-text" data-translate-key="footer_copyright">© 2025 PragatiGPT. सर्वाधिकार सुरक्षित।</p>
+            <div class="social-links">
+                <a href="#" aria-label="फेसबुक" data-translate-aria-label="social_facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="ट्विटर" data-translate-aria-label="social_twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="लिंक्डइन" data-translate-aria-label="social_linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="disclaimer" data-translate-key="footer_disclaimer">
+            Disclaimer: PragatiGPT is a demo project. AI-generated scheme info is illustrative and needs verification from official sources. It does not represent any government body.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
